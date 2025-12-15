@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-body{
+       background-color: #02060E;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+.tag-pill {
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;       
+  font-size: 0.75rem;         
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .tag-pill {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.tag-yellow {
+  color: #FCF55F;
+  background-color: rgb(252, 244, 95, 0.1);
+}
+
+.tag-blue {
+  color: #5FA3F6;
+  background-color: rgb(96, 163, 246, 0.1);
+}
+
+.tag-purple {
+  color: #7968F6;
+  background-color: rgb(121, 104, 246, 0.1);
+}
+
+.tag-teal {
+  color: #2DD4BF;
+  background-color: rgb(45, 212, 191, 0.1);
+}
+
+.text-dark-purple{
+       color: #7C38E9;
+}
+
+.text-white-50{
+       color: rgba(255, 255, 255, 0.5);
+}
+
+.text-white-75{
+       color: rgba(255, 255, 255, 0.75);
+}
